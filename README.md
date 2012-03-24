@@ -28,3 +28,4 @@ Sample run:
     Lorraine Hicks
     Elizabeth King
 
+After the data has been downloaded, it takes about 2-3 seconds to generate a million fake names.
