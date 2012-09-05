@@ -1,3 +1,5 @@
+**This is currently broken because the census took down the data files.  Bad gov!  Bad!**
+
 census-name-generator
 ---------------------
 
