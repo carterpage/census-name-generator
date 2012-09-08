@@ -3,9 +3,9 @@
 use warnings;
 use LWP::Simple;
 
-$LAST_NAME_URL = "http://www.census.gov/genealogy/names/dist.all.last";
-$FIRST_NAME_FEMALE_URL = "http://www.census.gov/genealogy/names/dist.female.first";
-$FIRST_NAME_MALE_URL = "http://www.census.gov/genealogy/names/dist.male.first";
+$LAST_NAME_URL = "http://www.census.gov/genealogy/www/data/1990surnames/dist.all.last";
+$FIRST_NAME_FEMALE_URL = "http://www.census.gov/genealogy/www/data/1990surnames/dist.female.first";
+$FIRST_NAME_MALE_URL = "http://www.census.gov/genealogy/www/data/1990surnames/dist.male.first";
 
 $LAST_NAME_FILE = "lname.dat";
 $FEMALE_FIRST_NAME_FILE = "fnamef.dat";
