@@ -1,15 +1,13 @@
-**This is currently broken because the census took down the data files.  Bad gov!  Bad!**
-
 census-name-generator
 ---------------------
 
-A brain-dead easy-to-use artificial name generator.  Syntax looks like this:
+A statistically realistic artificial name generator.  Syntax looks like this:
 
     namegen.pl [-d] <# of names>
         -d            Download name data from census (only need to do once)
         # of names    How many names to you need?
 
-The script uses 2010 Census data to ensure a realistic distribution.  ("John Smith" is more likely than 
+The script uses 1990 Census data to ensure a realistic distribution.  ("John Smith" is more likely than 
 "Marcellus Wallace", but both are possible.)  Distribution is 50/50 male to female, but can be configured
 in the script.
 
@@ -31,3 +29,8 @@ Sample run:
     Elizabeth King
 
 Once the data has been downloaded, it takes about 2-3 seconds to generate a million fake names.
+
+Newer version
+-------------
+
+This project has been extended in functionality in another project: [https://github.com/greenify/cli-name-generator]
